@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Swift Console App",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${workspaceFolder}/.build/debug/YourProjectName", 
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "preLaunchTask": "swift: build",
+            "internalConsoleOptions": "openOnSessionStart",
+            "stopOnEntry": false
+        }
+    ]
+}
